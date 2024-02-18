@@ -25,11 +25,12 @@ function App() {
     }
     })
     .then((response) => {
-      console.log (response)
+      console.log (response.json())
     })
     .catch((err) => {
     console.log(err)
     });
+
 
 
   }
