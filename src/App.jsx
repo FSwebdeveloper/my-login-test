@@ -3,7 +3,10 @@ import React, { useState } from "react";
 function App() {
     
 
-  const[change, setChange] = useState("");
+  const[change, setChange] = useState({
+    email: "",
+    password: ""
+  });
 
   function handleChange (e) {
    setChange({
