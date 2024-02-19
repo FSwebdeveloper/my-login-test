@@ -17,7 +17,7 @@ function App() {
 
   const handleSubmit = (e)=> {
     e.preventDefault();
-    fetch("/login",{
+    fetch("https://new-version-node.onrender.com/login",{
     method:"POST",
     body:JSON.stringify(change),
     headers:{
