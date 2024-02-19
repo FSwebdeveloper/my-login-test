@@ -24,11 +24,11 @@ function App() {
         "Content-Type": "application/json"
     }
     })
-    .then((response) => {
-      console.log (response.json())
+    .then((result) => {
+      return result.json()
     })
-    .catch((err) => {
-    console.log(err)
+    .then((data) => {
+    console.log(data)
     });
 
 
